@@ -16,17 +16,17 @@ Cada línea muestra `ID | caso | entrada | esperado | obtenido | PASA/FALLA` y a
 
 Archivo - Descripción 
 
-| `OrdenServicio.java` | Clase abstracta: datos comunes, estados, visitas y montos de una orden |
-| `Diagnostico.java` | Precio fijo por zona, máximo 1.5 horas, 3 visitas |
-| `Instalacion.java` | Horas facturables (horas vs. puntos × 0.75), cobro por hora o fracción, 3 visitas |
-| `InstalacionElectricaCertificada.java` | Hereda de `Instalacion`: + certificado Q120 + garantía 5 %, +2 días, 2 visitas |
-| `MantenimientoAireAcondicionado.java` | Solo zona metropolitana, BTU 9,000–60,000, cuadrilla certificada, 1 visita |
-| `Cuadrilla.java` | Código, capacidad de horas y certificación en refrigeración |
-| `Jornada.java` | Asignación (capacidad y compatibilidad), retiro, inicio y resultados |
-| `TecniHogar.java` | Registro de órdenes, cuadrillas y jornadas; reportes |
-| `Zona.java`, `EstadoOrden.java`, `EstadoJornada.java` | Enumeraciones |
-| `Main.java` | Menú de consola y datos iniciales (contiene `main`) |
-| `PruebasTecniHogar.java` | Pruebas automáticas de las reglas |
+| OrdenServicio.java | Clase abstracta: datos comunes, estados, visitas y montos de una orden |
+| Diagnostico.java | Precio fijo por zona, máximo 1.5 horas, 3 visitas |
+| Instalacion.java | Horas facturables (horas vs. puntos × 0.75), cobro por hora o fracción, 3 visitas |
+| InstalacionElectricaCertificada.java | Hereda de Instalacion: + certificado Q120 + garantía 5 %, +2 días, 2 visitas |
+| MantenimientoAireAcondicionado.java | Solo zona metropolitana, BTU 9,000–60,000, cuadrilla certificada, 1 visita |
+| Cuadrilla.java | Código, capacidad de horas y certificación en refrigeración |
+| Jornada.java | Asignación (capacidad y compatibilidad), retiro, inicio y resultados |
+| TecniHogar.java | Registro de órdenes, cuadrillas y jornadas; reportes |
+| Zona.java, EstadoOrden.java, EstadoJornada.java | Enumeraciones |
+| Main.java | Menú de consola y datos iniciales (contiene main) |
+| PruebasTecniHogar.java | Pruebas automáticas de las reglas |
 
 ## Datos iniciales
 
