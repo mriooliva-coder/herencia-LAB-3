@@ -1,39 +1,21 @@
-# Lab 3 – Herencia: TecniHogar
+Lab 3 Herencia: TecniHogar
 
-CC2008 Programación Orientada a Objetos · UVG · Ciclo 2, 2026
-José Ignacio Boehme Bonilla · Carné 261848
+Manuel Rio 16639
 
 Aplicación de consola en Java para gestionar las órdenes de servicio de TecniHogar:
 cotización y registro de órdenes de cuatro categorías, cuadrillas, jornadas, visitas
 y reportes de órdenes, ingresos y jornadas abiertas.
 
-## Requisitos
-
-- JDK 8 o superior (`java -version` y `javac -version` deben funcionar en la terminal).
-- No usa librerías externas, archivos ni base de datos: todo se guarda en memoria.
-
 ## Compilar y ejecutar
 
-```bash
-cd src
-javac *.java
-java Main
-```
-
 ## Ejecutar las pruebas automáticas
-
-```bash
-cd src
-javac *.java
-java PruebasTecniHogar
-```
 
 Cada línea muestra `ID | caso | entrada | esperado | obtenido | PASA/FALLA` y al final el total de pruebas aprobadas.
 
 ## Estructura
 
-| Archivo | Descripción |
-|---|---|
+Archivo - Descripción 
+
 | `OrdenServicio.java` | Clase abstracta: datos comunes, estados, visitas y montos de una orden |
 | `Diagnostico.java` | Precio fijo por zona, máximo 1.5 horas, 3 visitas |
 | `Instalacion.java` | Horas facturables (horas vs. puntos × 0.75), cobro por hora o fracción, 3 visitas |
