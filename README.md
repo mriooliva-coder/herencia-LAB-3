@@ -6,13 +6,13 @@ Aplicación de consola en Java para gestionar las órdenes de servicio de TecniH
 cotización y registro de órdenes de cuatro categorías, cuadrillas, jornadas, visitas
 y reportes de órdenes, ingresos y jornadas abiertas.
 
-## Compilar y ejecutar
+Compilar y ejecutar
 
-## Ejecutar las pruebas automáticas
+Ejecutar las pruebas automáticas
 
 Cada línea muestra `ID | caso | entrada | esperado | obtenido | PASA/FALLA` y al final el total de pruebas aprobadas.
 
-## Estructura
+Estructura
 
 Archivo - Descripción 
 
@@ -40,7 +40,7 @@ Archivo - Descripción
 
 
 
-## Uso rápido
+Uso rápido
 
 1. Opción **3** para crear una jornada (se le asigna un código `J1`, `J2`, …).
 2. Opción **4** para asignarle órdenes pendientes.
