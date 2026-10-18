@@ -38,11 +38,7 @@ Archivo - Descripción
 
 | PruebasTecniHogar.java | Pruebas automáticas de las reglas |
 
-## Datos iniciales
 
-- Órdenes pendientes (sin ingresos): `D-001`, `D-002`, `I-001`, `I-002`, `E-001`, `E-002`, `M-001`, `M-002`.
-  `I-001` tiene más horas por puntos (3.75) que horas estimadas (2.5).
-- Cuadrillas: `C-01` (8 h, certificada en refrigeración), `C-02` (6 h, no certificada), `C-03` (4 h, no certificada).
 
 ## Uso rápido
 
@@ -51,4 +47,4 @@ Archivo - Descripción
 3. Opción **6** para iniciarla y opción **7** para registrar el resultado de cada orden.
 4. Opciones **10**, **11** y **12** para los reportes.
 
-Los números decimales se escriben con punto (por ejemplo `2.5`).
+
